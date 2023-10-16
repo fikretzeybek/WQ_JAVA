@@ -16,7 +16,7 @@ public class D_Runner {
         System.out.println(kartal1.pence); // C pencelidir
 
         B_Kuslar kartal2 = new B_Kuslar();
-        A_Hayvanlar kartal3 = new A_Hayvanlar();
+        java.F25_inheritanceDataTypeKullanimi_overriding.A_Hayvanlar kartal3 = new java.F25_inheritanceDataTypeKullanimi_overriding.A_Hayvanlar();
 
 
 
