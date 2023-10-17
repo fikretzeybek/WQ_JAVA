@@ -15,4 +15,10 @@ public interface I08_Interface {
     public void method2();
     abstract int method5();
     String method4();
+
+
+
+    public static void main(String[] args) {
+
+    }
 }

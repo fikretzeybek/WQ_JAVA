@@ -41,5 +41,6 @@ public class K12_ChildOfInterfaces implements I08_Interface,I10_Interface{
     public static void main(String[] args) {
         System.out.println(I10_Interface.isim);// Veli Cem
         System.out.println(I10_Interface.sayi1);// 25
+
     }
 }
