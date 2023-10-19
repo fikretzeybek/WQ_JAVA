@@ -77,7 +77,6 @@ public class F02_listIterator {
 
         //tum sayilari iterator ile silin
         //iterator sonda
-
         while (listIterator.hasPrevious()){
 
          listIterator.previous();
