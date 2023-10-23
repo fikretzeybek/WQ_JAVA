@@ -9,7 +9,8 @@ public class C10_MethodOverloading {
 
             1- isim
             2- argument sayisi ile parametre sayisi
-            3- argument olarak yazilan DEGERler ile PARAMETRElerin data turunun uyumlu olmasi
+            3- argument olarak yazilan DEGERler ile PARAMETRElerin
+                data turunun uyumlu olmasi
             4- eger argument ve parametreler %100 uyumlu olmazsa
                minumun sayida casting ile calistirabilecegi method'u tercih eder
          */
@@ -20,6 +21,7 @@ public class C10_MethodOverloading {
 
 
     public static void toplama(double a, int b) { // toplama double int
+
         System.out.println("double ve int 2 sayinin toplami : " + (a + b));
     }
 

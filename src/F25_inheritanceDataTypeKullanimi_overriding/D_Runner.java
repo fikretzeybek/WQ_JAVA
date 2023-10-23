@@ -8,7 +8,7 @@ public class D_Runner {
 
         System.out.println(kartal1.hareket); // C Ucarlar
         System.out.println(kartal1.solunum); // B akcigerle nefes alirlar
-        System.out.println(kartal1. beslenme); // C Et yerler
+        System.out.println(kartal1.beslenme); // C Et yerler
         System.out.println(kartal1.cogalma); // B Yumurtayla cogalirlar
         System.out.println(kartal1.omur); // A yasar ve olurler
         System.out.println(kartal1.kanat); // B Kanatlidirlar
@@ -16,8 +16,7 @@ public class D_Runner {
         System.out.println(kartal1.pence); // C pencelidir
 
         B_Kuslar kartal2 = new B_Kuslar();
-        java.F25_inheritanceDataTypeKullanimi_overriding.A_Hayvanlar kartal3 = new java.F25_inheritanceDataTypeKullanimi_overriding.A_Hayvanlar();
-
+        A_Hayvanlar kartal3 = new A_Hayvanlar();
 
 
     }

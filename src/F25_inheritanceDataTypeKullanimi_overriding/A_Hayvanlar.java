@@ -1,4 +1,4 @@
-package java.F25_inheritanceDataTypeKullanimi_overriding;
+package F25_inheritanceDataTypeKullanimi_overriding;
 
 public class A_Hayvanlar {
 

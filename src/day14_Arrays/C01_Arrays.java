@@ -2,44 +2,12 @@ package day14_Arrays;
 
 public class C01_Arrays {
     public static void main(String[] args) {
-        //Soru 2- Verilen bir array’deki pozitif tamsayilari toplayip
-        //        sonucu bize donduren bir method yaziniz.
-        int[] arr = {3, -5, 4, 2, -6, -7, 8, 3, -1};
-        System.out.println(pozitifSayilariTopla(arr)); // 20
-        //System.out.println(pSt(arr));
-    }
-
-    public static int pozitifSayilariTopla(int[] arr) {
-        int toplam = 0;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] > 0) {
-                toplam += arr[i];
-            }
+        int[] array = {2, 4, 6, 8, 10};
+        int result = 0;
+        for (int i = 0; i < array.length; i++) {
+            result += (i % 2 == 0) ? array[i] : -array[i];
         }
-        return toplam;
+        System.out.println(result);
+
     }
-  //public static int pSt(int[] arr){
-
-  //    int sum = 0;
-
-  //    for (int i = 0; i < arr.length; i++) {
-  //       if (arr[i] > 0){
-  //           sum += arr[i];
-  //       }
-
-  //    }
-  //    return sum;
-
-
 }
-
-
-
-
-
-
-
-
-
-
-

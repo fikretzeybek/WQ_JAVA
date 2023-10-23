@@ -5,8 +5,12 @@ import java.util.Arrays;
 public class C03_Arrays {
     public static void main(String[] args) {
 
-        // erilen int bir array deki tum
+        // verilen int bir array deki tum
         // elementlerin degerlerini 2 artirin
+
+degerArtirDondur();
+    }
+    public static int[] degerArtirDondur(){
 
         int[] arr = {3,5,7,10};
 
@@ -20,7 +24,7 @@ public class C03_Arrays {
 
         System.out.println("Array son hali :" + Arrays.toString(arr));
 
-
+        return arr;
 
     }
 }

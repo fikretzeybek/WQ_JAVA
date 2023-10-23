@@ -35,11 +35,12 @@ public class C09_MethodOverloading {
     // verilen iki integer sayiyi toplayip yazdiran bir method olusturun
 
     public static void toplama(int a, double b) { // toplama int double
+
         System.out.println("int ve double 2 sayinin toplami : " + (a + b));
     }
 
-
     public static void toplama(double a, int b) { // toplama double int
+
         System.out.println("double ve int 2 sayinin toplami : " + (a + b));
     }
 }

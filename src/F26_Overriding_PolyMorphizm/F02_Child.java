@@ -26,6 +26,7 @@ public class F02_Child extends F01_Parent {
         // overriding method'un icine
         // super.overriddenMethod() yazabilirsiniz
     }
+
     /*
     public void method3(){
 
